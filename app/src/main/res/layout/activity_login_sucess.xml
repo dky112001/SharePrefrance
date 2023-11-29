@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="50dp"
+    android:layout_height="match_parent"
+    tools:context=".LoginSucess_activity">
+
+    <TextView
+        android:id="@+id/nameget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <TextView
+        android:id="@+id/passwordget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+       android:layout_below="@id/nameget"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <Button
+        android:id="@+id/logoutbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_below="@id/passwordget"
+        android:layout_marginTop="55dp"
+        tools:layout_editor_absoluteX="208dp"
+        tools:layout_editor_absoluteY="90dp" />
+</RelativeLayout>
